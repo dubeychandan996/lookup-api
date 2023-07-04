@@ -1,6 +1,6 @@
 <?php
-$ip='8.8.8.8';// number with country code
-$api_key='your apikey';  // you will found in proweblook dashboard in top nav bar
+$ip='8.8.8.8'; // IP address that you want to trace
+$api_key='your apikey';  // you will found in proweblook dashboard in the top nav bar
 $url='https://ipgeo.proweblook.com/?ip='.$email.'&api_key='.$api_key;
 
 $curl = curl_init();
