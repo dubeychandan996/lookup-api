@@ -1,5 +1,5 @@
 <?php
-$email='info@proweblook.com';// number with country code
+$email='info@proweblook.com';// Email that you want to check
 $api_key='your apikey';  // you will found in proweblook dashboard in top nav bar
 $url='https://proweblook.com/api/v1/checkemail?email='.$email.'&api_key='.$api_key;
 
